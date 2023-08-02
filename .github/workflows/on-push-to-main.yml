@@ -4,9 +4,6 @@ on:
   push:
     branches: [ "main" ]
 
-#permissions:
-#id-token: write # This is required for requesting the JWT
-
 jobs:
   build-and-push-images:
     runs-on: ubuntu-latest
